@@ -13,16 +13,15 @@ You can follow the steps below or clone this sample app.
 
 ## 1: Install mongo-hibernate
 
-1. Clone the mongo-hibernate repository:
+1. Clone the `mongo-hibernate` repository:
     ```
     git clone https://github.com/mongodb/mongo-hibernate.git
     ```
-2. Navigate to the mongo-hibernate folder and publish to your local Maven repository:
+2. Navigate to the `mongo-hibernate` folder and publish to your local Maven repository:
    ```
    cd mongo-hibernate
    ./gradlew publishToMavenLocal
    ```
-You now have a local copy of mongo-hibernate.
 
 ## 2: Create a Maven or Gradle project
 
@@ -46,6 +45,9 @@ dependencies {
     implementation 'org.mongodb:mongodb-hibernate:1.0.0-SNAPSHOT'
 }
 ```
+
+*Note*: This sample app uses Maven and defines a `pom.xml` file.
+
 ## 3: Configure your MongoDB connection
 
 1. Create a `hibernate.cfg.xml` file in your project's `resources` folder.
