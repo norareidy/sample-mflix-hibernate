@@ -46,7 +46,7 @@ dependencies {
     implementation 'org.mongodb:mongodb-hibernate:1.0.0-SNAPSHOT'
 }
 ```
-### 3 - Configure your MongoDB connection
+## 3: Configure your MongoDB connection
 
 1. Create a `hibernate.cfg.xml` file in your project's `resources` folder.
    Use the `hibernate.cfg.xml` file in this sample app as a template
@@ -61,7 +61,7 @@ dependencies {
    mongodb+srv://<username>:<password>@<cluster>/sample_mflix?<options>
    ```
 
-### 4 - Create your application files
+## 4: Create your application files
 
 1. Navigate to `src/main`. Create a `HibernateUtil.java` file in your package directory.
 
@@ -78,7 +78,7 @@ dependencies {
    This file runs CRUD operations on the `movies` collection. Copy the contents of this sample
    app's `Main.java` file.
 
-### 4 - Run the application
+## 5: Run the application
 
 1. Run the `Main.java` file in your IDE. Your output should resemble the following:
 
