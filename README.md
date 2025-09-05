@@ -14,10 +14,12 @@ You can follow the steps below or clone this sample app.
 ## 1: Install mongo-hibernate
 
 1. Clone the `mongo-hibernate` repository:
+
     ```
     git clone https://github.com/mongodb/mongo-hibernate.git
     ```
 2. Navigate to the `mongo-hibernate` folder and publish to your local Maven repository:
+
    ```
    cd mongo-hibernate
    ./gradlew publishToMavenLocal
