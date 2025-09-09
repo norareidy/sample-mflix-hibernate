@@ -87,9 +87,9 @@ dependencies {
 1. Run the `Main.java` file in your IDE. Your output should resemble the following:
 
    ```
-   Movie: Little Women, Year: 1949
-   Movie: Little Women, Year: 1994
-   Movie created with id = 68bb32330b52ef3febf7d582
-   Movie updated with new cast member
-   Movie deleted with id = 68bb32330b52ef3febf7d582
+   Title: Little Women, Year: 1949
+   Title: Little Women, Year: 1994
+   Movie created with id: 68bb32330b52ef3febf7d582
+   Movie updated with new cast member: Jennifer Grey
+   Movie deleted with id: 68bb32330b52ef3febf7d582
    ```
